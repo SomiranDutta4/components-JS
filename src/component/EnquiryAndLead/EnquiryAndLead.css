@@ -1,0 +1,185 @@
+.enquiry-and-lead-container {
+    width: 51%;
+    height: 94vh;
+    /* overflow-y: scroll; */
+    /* margin: 0 auto; */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+
+    /* grid-template-columns: 50% 50%;     */
+    /* justify-content: space-between; */
+    box-shadow: 0 4px 2px -2px gray; /* Adds a shadow border below */
+}
+
+.option-button {
+    margin: 0 10px 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.search-container {
+    margin-bottom: 20px;
+}
+
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-item {
+    padding: 10px;
+    width: 117%;
+    border-bottom: 1px solid #ccc;
+}
+.nav-Enquiry{
+    background-color: #83b9f3a0;
+    border-radius: 5px;
+}
+.nav-Leads {
+    background-color: #83b9f3a0;
+    border-radius: 5px;
+    display: grid;
+    width: 117%;
+    grid-template-columns: 14% 11% 25% 11% 12% 14% 13%;
+    grid-template-rows: max-content;
+    justify-content: space-between;
+    padding: 4px 10px 4px 10px;
+    margin-bottom: 10px;
+}
+
+.Leads-container
+.List-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.search-input {
+    width: 30%;
+    padding: 10px;
+}
+
+.navigation-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-buttons button {
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.nav-Enquiry {
+    padding: 4px 10px 4px 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 30% 30%;
+}
+
+.nav-Enquiry button {
+    flex: 1;
+    margin-right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    /* padding: 10px; */
+    text-align: left;
+}
+
+.nav-Leads button {
+    flex: 1;
+    margin-right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    /* padding: 10px; */
+    text-align: left;
+}
+.List-container{
+    height: 78%;
+    overflow-y: scroll;
+}
+.Leads-container{
+    overflow-x: scroll;
+}
+
+.contact-item-Enquiry {
+    display: grid;
+    grid-template-columns: 20% 20% 30% 30%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-item {
+    display: grid;
+    grid-template-columns: 14% 11% 25% 11% 12% 14% 13%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-item p {
+    flex: 1;
+    margin-right: 10px;
+}
+.halfNavBtn{
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+.Leads-container {
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+.Leads {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* .options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+} */
+
+.option-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+.halfNavBtn{
+    display: flex;
+    width: 50%;
+}
+.selected-option {
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+}
+
+.Leads-container, .Enquiry-container {
+    /* padding: 20px; */
+    margin-top: 20px;
+}
+
